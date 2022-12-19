@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="./css/shop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8347c8e1a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./img/icon.png">
+</head>
+<body>
+                        <!--NavBar-->
+<header>
+    <div class="upper-section">
+        <form action="#">
+            <input type="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass glass"></i>
+        </form>
+        <abbr title="FrontEnd developer" style="text-decoration: none;"><h2>Abdelrhman Lotfy Badran <br>Abdelrahman Hamed Elhawary <br> Mahmoud Hamed Mahmoud</h2></abbr>
+        <div class="icons">
+            <i class="fa-solid fa-user icon"></i>
+            <i class="fa-regular fa-heart icon"></i>
+            <i class="fa-sharp fa-solid fa-cart-shopping icon"></i>
+            <span>2</span>
+        </div>
+    </div>
+    <hr style="color:#ccc; border-top:1px solid #ccc;">
+    <nav>
+        <a href="./Home_page.html" target="_blank"  class="links">Home <i class="fa-solid fa-caret-down" style="font-size: 0.7rem;padding-left: 10px;"></i></a>
+        <a href="./about.html" class="links">about <i class="fa-solid fa-caret-down" style="font-size: 0.7rem; padding-left: 10px;"></i></a>
+        <a href="./shop.html" class="link-home">shop</a>
+        <a href="" class="links">catalogue</a>
+        <a href="" class="links">new arrivals</a>
+        <a href="" class="links">contact</a>
+    </nav>
+</header>
+                                <!-- Home / Contact -->
+<section class="parent1">
+    <div class="son1">
+        <a class="ho" href="./Home_page.html">Home </a>/ <a class="ca" href="#">Shop</a>
+    </div>
+</section>
+                                <!--main-content-->
+<main>
+    <aside>
+        <div class="catergories">
+            <h3>catergories</h3>
+            <div>
+                <p>Men</p>
+                <span>(2,220)</span>
+            </div>
+            <div>
+                <p>Women</p>
+                <span>(2,550)</span>
+            </div>
+            <div>
+                <p>Children</p>
+                <span>(2,124)</span>
+            </div>
+        </div>
+        <div class="filter">
+            <h3>filter by price</h3>
+            <div class="scale">
+                <span class="ball-1"></span>
+                <span class="ball-2"></span>
+            </div>
+            <p>$75 - $300</p>
+            <div class="size">
+                <h3>SIZE</h3>
+                <input type="checkbox" name="size" value="small" >
+                <label for="small">Small(2,319)</label>
+                <br>
+                <input type="checkbox" name="size" value="med">
+                <label for="small">Medium(1,282)</label>
+                <br>
+                <input type="checkbox" name="size" value="large">
+                <label for="small">Small(1,392)</label>
+            </div>
+            <div class="color">
+                <h3>COLOR</h3>
+                <span class="red"></span>
+                <label for="red">Red</label>
+                <br>
+                <span class="green"></span>
+                <label for="green">Green</label>
+                <br>
+                <span class="blue"></span>               
+                <label for="blue">Blue</label>
+                <br>
+                <span class="purple"></span>
+                <label for="Purple">Purple</label>
+            </div>
+        </div>
+    </aside>
+    <article>
+        <div class="list">
+            <h1>Shop All</h1>
+            <div class="right">
+                <div class="buttons">
+                    <label for="drop1" class="label">LATEST <i class="fa-solid fa-caret-down"></i></label>
+                    <input type="checkbox"  id="drop1">
+                    <div class="menu">
+                        <div><p>Men</p></div>          
+                        <div>Women</div>
+                        <div>Children</div>
+                    </div>
+                    
+                </div>
+                <div class="buttons">
+                    <label for="drop2" class="label">REFRENCE <i class="fa-solid fa-caret-down"></i></label>
+                    <input type="checkbox"  id="drop2">
+                    <div class="menu">
+                        <div>Relevance</div>          
+                        <div>Name,A to Z</div>
+                        <div>Name,Z to A</div>
+                        <hr>
+                        <div>Price,low to high</div>
+                        <div>Price,high to low</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #dcdcdc32;margin-top:120px ;width: 100%;padding: 0 50px;">
+            <div class="products">
+                <div>
+                    <a href="./single_product.html"><img src="./img/shoe_1.jpg" alt=""></a>
+                    <h3>shoe</h3>
+                    <p> Finding perfect t-shirt</p>
+                    <h3>$50</h3>
+                </div>
+                <div>
+                    <a href="./single_product.html"><img src="./img/cloth_1.jpg" alt=""></a>
+                    <h3> Tank Top</h3>
+                    <p> Finding perfect products</p>
+                    <h3>$50</h3>
+                </div>
+                <div>
+                    <a href="./single_product.html"><img src="./img/cloth_2.jpg" alt=""></a>
+                    <h3> polo shirts</h3>
+                    <p> Finding perfect products</p>
+                    <h3>$50</h3>
+                </div>
+            </div>
+            <div class="products">
+                <div>
+                    <a href="./single_product.html"><img src="./img/cloth_3.jpg" alt=""></a>
+                    <h3> corater</h3>
+                    <p> Finding perfect products</p>
+                    <h3>$50</h3>
+                </div>
+                <div>
+                    <a href="./single_product.html"><img src="./img/cloth_2.jpg" alt=""></a>
+                    <h3>polo shirts</h3>
+                    <p> Finding perfect t-shirt</p>
+                    <h3>$50</h3>
+                </div>
+                <div>
+                    <a href="./single_product.html"><img src="./img/cloth_1.jpg" alt=""></a>
+                    <h3> Tank Top</h3>
+                    <p> Finding perfect products</p>
+                    <h3>$50</h3>
+                </div>
+            </div>
+            <div class="products">
+                <div>
+                    <a href="./single_product.html"><img src="./img/cloth_3.jpg" alt=""></a>
+                    <h3> corater</h3>
+                    <p> Finding perfect products</p>
+                    <h3>$50</h3>
+                </div>
+                <div>
+                    <a href="./single_product.html"><img src="./img/shoe_1.jpg" alt=""></a>
+                    <h3>shoe</h3>
+                    <p> Finding perfect t-shirt</p>
+                    <h3>$50</h3>
+                </div>
+                <div>
+                    <a href="./single_product.html"><img src="./img/cloth_2.jpg" alt=""></a>
+                    <h3> polo shirts</h3>
+                    <p> Finding perfect products</p>
+                    <h3>$50</h3>
+                </div>
+            </div>
+            <div class="products">
+                <div>
+                    <a href="./single_product.html"><img src="./img/cloth_1.jpg" alt=""></a>
+                    <h3>Tank Top</h3>
+                    <p> Finding perfect products</p>
+                    <h3>$50</h3>
+                </div>
+                <div>
+                    <a href="./single_product.html"><img src="./img/cloth_3.jpg" alt=""></a>
+                    <h3>corater</h3>
+                    <p> Finding perfect t-shirt</p>
+                    <h3>$50</h3>
+                </div>
+                <div>
+                    <a href="./single_product.html"><img src="./img/cloth_2.jpg" alt=""></a>
+                    <h3> polo shirts</h3>
+                    <p> Finding perfect products</p>
+                    <h3>$50</h3>
+                </div>
+            </div>
+        </div>
+        <div class="circles">
+            <span class="circle"><i class="fa-solid fa-chevron-left" style="margin-top: 15px;"></i></span>
+            <span class="diff" ><span class="i">1</span></span>
+            <span class="circle"><span class="i">2</span></span>
+            <span class="circle"><span class="i">3</span></span>
+            <span class="circle"><span class="i">4</span></span>
+            <span class="circle"><span class="i">5</span></span>
+            <span class="circle"><i class="fa-solid fa-chevron-right" style="margin-top: 15px;"></i></span>
+        </div>
+    </article>
+</main>
+<section class="section-2">
+    <div class="collection">
+        <img src="./img/women.jpg" alt="">
+        <h4>collections</h4>
+        <h1>Women</h1>
+    </div>
+    <div class="collection">
+        <img src="./img/children.jpg" alt="">
+        <h4>collections</h4>
+        <h1>Children</h1>
+    </div>
+    <div class="collection">
+        <img src="./img/men.jpg" alt="">
+        <h4>collections</h4>
+        <h1>Men</h1>
+    </div>
+</section>
+<footer>
+    <div class="cols">
+        <div>
+            <h1>Navigations</h1>
+            <p>Sell online</p>
+            <p>Features</p>
+            <p>Shopping</p>
+            <p>store builder</p>
+        </div>
+        <div style="margin-top: 55px;">
+            <p>Mobile commerce</p>
+            <p>Dropshipping</p>
+            <p>Website developement</p>
+        </div>
+        <div style="margin-top: 55px;">
+            <p>Point of slae</p>
+            <p>Hardware</p>
+            <p>Software</p>
+        </div>
+        <div >
+            <h1 >Promo</h1>
+            <img src="./img/hero_1.jpg" alt="">
+            <h3> Finding Your Perfect Shoes</h3>
+            <p>Promo from nuary 15 - 25 , 2019</p>
+        </div>
+        <div>
+            <h1>Contact Info</h1>
+            <i class="fa-solid fa-location-dot"></i>
+            <p style="display: inline-block;"> Hehia , Zagazig   El Sharkia , Egypt . </p>
+            <br>
+            <i class="fa-solid fa-phone"></i>
+            <p style="display: inline-block;">+20 01151753800 </p>
+            <br>
+            <i class="fa-solid fa-envelope"></i>
+            <p style="display: inline-block;"> Abdelrhman.Badran222@gamil.com </p>
+            <h2 style="margin-top: 120px;letter-spacing: -1px;">Subscribe</h2>
+            <div>
+                <input type="search" placeholder="Email" >
+                <button>SEND</button>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Ⓒ2022 All rights reserved I  this template is made with <i class="fa-solid fa-heart"></i> by <span> Abdelrhman Badran</span></p>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="css\cart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8347c8e1a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./img/icon.png">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+                                <!--NavBar-->
+<header>
+    <div class="upper-section">
+        <form action="#">
+            <input type="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass glass"></i>
+        </form>
+        <abbr title="FrontEnd developer" style="text-decoration: none;">
+            <h2>Abdelrhman Lotfy Badran <br>Abdelrahman Hamed Elhawary <br> Mahmoud Hamed Mahmoud</h2>
+        </abbr>
+        <div class="icons">
+            <i class="fa-solid fa-user icon"></i>
+            <i class="fa-regular fa-heart icon"></i>
+            <i class="fa-sharp fa-solid fa-cart-shopping icon"></i>
+            <span>2</span>
+        </div>
+    </div>
+    <hr style="color:#ccc; border-top:1px solid #ccc;">
+    <nav>
+        <a href="./Home_page.html" target="_blank" class="link-home">Home <i class="fa-solid fa-caret-down"
+                style="font-size: 0.7rem;padding-left: 10px;"></i></a>
+        <a href="./about.html" class="links">about <i class="fa-solid fa-caret-down"
+                style="font-size: 0.7rem; padding-left: 10px;"></i></a>
+        <a href="./shop.html" class="links">shop</a>
+        <a href="" class="links">catalogue</a>
+        <a href="" class="links">new arrivals</a>
+        <a href="" class="links">contact</a>
+    </nav>
+</header>
+                                <!-- Home / Contact -->
+<section class="parent1">
+    <div class="son1">
+        <a class="ho" href="./Home_page.html">Home </a>/ <a class="ca" href="#">Cart</a>
+    </div>
+</section>
+                                <!-- Main Section -->
+<section class="parent2">
+    <div class="son2">
+        <table>
+            <tr class="tableheader">
+                <th>Image</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Remove</th>
+            </tr>
+            <tr>
+                <td><img src="img\cloth_1.jpg" width="200px" alt=""></td>
+                <td>Top Up T-Shirt</td>
+                <td>$49.00</td>
+                <td>
+                    <section class="all">
+                        <div class="wrapper">
+                            <span class="minus">ــ</span>
+                            <span class="num">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                    </section>
+                </td>
+                <td>$49.00</td>
+                <td><button class="rem">x</button></td>
+            </tr>
+            <tr>
+                <td><img src="img\cloth_2.jpg" width="200px" alt=""></td>
+                <td>Polo T-Shirt</td>
+                <td>$49.00</td>
+                <td>
+                    <section class="all">
+                        <div class="wrapper">
+                            <span class="minus">ــ</span>
+                            <span class="num">1</span>
+                            <span class="plus">+</span>
+                        </div>
+                    </section>
+                </td>
+                <td>$49.00</td>
+                <td><button class="rem">x</button></td>
+            </tr>              
+        </table>
+    </div>
+</section>
+                                <!-- Footer -->
+<footer>
+    <div class="cols">
+        <div>
+            <h1>Navigations</h1>
+            <p>Sell online</p>
+            <p>Features</p>
+            <p>Shopping</p>
+            <p>store builder</p>
+        </div>
+        <div style="margin-top: 55px;">
+            <p>Mobile commerce</p>
+            <p>Dropshipping</p>
+            <p>Website developement</p>
+        </div>
+        <div style="margin-top: 55px;">
+            <p>Point of slae</p>
+            <p>Hardware</p>
+            <p>Software</p>
+        </div>
+        <div >
+            <h1 >Promo</h1>
+            <img src="./img/hero_1.jpg" alt="">
+            <h3> Finding Your Perfect Shoes</h3>
+            <p>Promo from nuary 15 - 25 , 2019</p>
+        </div>
+        <div>
+            <h1>Contact Info</h1>
+            <i class="fa-solid fa-location-dot"></i>
+            <p style="display: inline-block;"> Hehia , Zagazig   El Sharkia , Egypt . </p>
+            <br>
+            <i class="fa-solid fa-phone"></i>
+            <p style="display: inline-block;">+20 01151753800 </p>
+            <br>
+            <i class="fa-solid fa-envelope"></i>
+            <p style="display: inline-block;"> Abdelrhman.Badran222@gamil.com </p>
+            <h2 style="margin-top: 120px;letter-spacing: -1px;">Subscribe</h2>
+            <div>
+                <input type="search" placeholder="Email" >
+                <button>SEND</button>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Ⓒ2022 All rights reserved I  this template is made with <i class="fa-solid fa-heart"></i> by <span> Abdelrhman Badran</span></p>
+    </div>
+</footer>
+</body>
+
+</html>
